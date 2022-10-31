@@ -1,0 +1,203 @@
+[
+{
+    "type": "recipe",
+    "result": "clever_solar_panel",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "electronics",
+    "difficulty": 9,
+    "skills_required": [ [ "mechanics", 7 ], [ "fabrication", 8 ] ],
+    "time": "100 m",
+    "reversible": true,
+    "decomp_learn": 8,
+    "autolearn": true,
+    "book_learn": [ [ "manual_electronics", 7 ], [ "textbook_electronics", 6 ], [ "advanced_electronics", 6 ] , [ "textbook_robots", 8 ] ],
+    "using": [ [ "soldering_standard", 60 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": 
+	[ 
+	[ [ "solar_panel", 1 ] ],
+    [ [ "sensor_module", 1 ] ],
+    [ [ "targeting_module", 1 ] ],
+    [ [ "self_monitoring_module", 1 ] ],
+	[ [ "turret_chassis", 1 ] ],
+	[ [ "wire", 20 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "clever_reinforced_solar_panel",
+    "id_suffix": "clever_reinforced_like1",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "fabrication",
+    "difficulty": 9,
+    "skills_required": [ [ "mechanics", 7 ], [ "electronics", 8 ] ],
+    "time": "40 m",
+    "reversible": true,
+    "decomp_learn": 8,
+    "autolearn": true,
+    "book_learn": [ [ "textbook_robots", 8 ] ],
+    "using": [ [ "welding_standard", 48 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": 
+	[ 
+	[ [ "clever_solar_panel", 1 ] ],
+	[ [ "reinforced_glass_pane", 1 ] ],
+	[ [ "scrap", 15 ] ] ,
+	[ [ "wire", 15 ] ] 	
+	]
+  },
+    {
+    "type": "recipe",
+    "result": "clever_reinforced_solar_panel",
+    "id_suffix": "clever_reinforced_like2",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "electronics",
+    "difficulty": 9,
+    "skills_required": [ [ "mechanics", 7 ], [ "fabrication", 8 ] ],
+    "time": "100 m",
+    "reversible": true,
+    "decomp_learn": 8,
+    "autolearn": true,
+    "book_learn": [ [ "textbook_robots", 8 ] ],
+    "using": [ [ "soldering_standard", 60 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": 
+	[ 
+	[ [ "reinforced_solar_panel", 1 ] ],
+  [ [ "sensor_module", 1 ] ],
+  [ [ "targeting_module", 1 ] ],
+  [ [ "self_monitoring_module", 1 ] ],
+	[ [ "turret_chassis", 1 ] ],
+	[ [ "wire", 20 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "clever_solar_panel_v2",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "electronics",
+    "difficulty": 10,
+    "skills_required": [ [ "mechanics", 8 ], [ "fabrication", 9 ] ],
+    "time": "100 m",
+    "reversible": true,
+    "decomp_learn": 8,
+    "autolearn": true,
+    "book_learn":[ [ "textbook_robots", 8 ] ],
+    "using": [ [ "soldering_standard", 60 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": 
+	[ 
+	[ [ "solar_panel_v2", 1 ] ],
+  [ [ "sensor_module", 1 ] ],
+  [ [ "targeting_module", 1 ] ],
+  [ [ "self_monitoring_module", 1 ] ],
+	[ [ "turret_chassis", 1 ] ],
+	[ [ "wire", 20 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "clever_solar_panel_v2",
+    "id_suffix": "clever_v2like1",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "electronics",
+    "difficulty": 10,
+    "skills_required": [ [ "mechanics", 8 ], [ "fabrication", 9 ] ],
+    "time": "100 m",
+    "reversible": true,
+    "decomp_learn": 8,
+    "autolearn": true,
+    "book_learn":[ [ "textbook_robots", 8 ] ],
+    "using": [ [ "soldering_standard", 60 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": 
+	[ 
+	[ [ "clever_solar_panel", 1 ] ],
+    [ [ "power_supply", 2 ] ],
+    [ [ "amplifier", 2 ] ],
+    [ [ "solar_cell", 8 ] ],
+    [ [ "cable", 10 ] ],
+	[ [ "wire", 20 ] ] 
+	] 
+  },
+  {
+    "type": "recipe",
+    "result": "clever_reinforced_solar_panel_v2",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "electronics",
+    "difficulty": 10,
+    "skills_required": [ [ "mechanics", 8 ], [ "fabrication", 9 ] ],
+    "time": "100 m",
+    "reversible": true,
+    "decomp_learn": 8,
+    "autolearn": true,
+    "book_learn": [ [ "textbook_robots", 8 ] ],
+    "using": [ [ "welding_standard", 48 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": 
+	[ 
+	[ [ "clever_reinforced_solar_panel", 1 ] ],
+    [ [ "power_supply", 2 ] ],
+    [ [ "amplifier", 2 ] ],
+    [ [ "solar_cell", 8 ] ],
+    [ [ "cable", 10 ] ],
+	[ [ "wire", 20 ] ] 
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "clever_reinforced_solar_panel_v2",
+    "id_suffix": "clever_reinforced_v2like1",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "electronics",
+    "difficulty": 10,
+    "skills_required": [ [ "mechanics", 8 ], [ "fabrication", 9 ] ],
+    "time": "100 m",
+    "reversible": true,
+    "decomp_learn": 8,
+    "autolearn": true,
+    "book_learn": [ [ "textbook_robots", 8 ] ],
+    "using": [ [ "welding_standard", 48 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": 
+	[ 
+	[ [ "reinforced_solar_panel_v2", 1 ] ],
+  [ [ "sensor_module", 1 ] ],
+  [ [ "targeting_module", 1 ] ],
+  [ [ "self_monitoring_module", 1 ] ],
+	[ [ "turret_chassis", 1 ] ],
+	[ [ "wire", 20 ] ] 
+	]
+   },
+   {
+    "type": "recipe",
+    "result": "clever_reinforced_solar_panel_v2",
+    "id_suffix": "clever_reinforced_v2like2",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "skills_required": [ [ "mechanics", 8 ], [ "electronics", 9 ] ],
+    "time": "100 m",
+    "reversible": true,
+    "decomp_learn": 8,
+    "autolearn": true,
+    "book_learn": [ [ "textbook_robots", 8 ] ],
+    "using": [ [ "welding_standard", 48 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": 
+	[ 
+	[ [ "clever_reinforced_solar_panel_v2", 1 ] ],
+	[ [ "reinforced_glass_pane", 1 ] ],
+	[ [ "scrap", 15 ] ] ,
+	[ [ "wire", 15 ] ] 	
+	]
+  } 
+]   

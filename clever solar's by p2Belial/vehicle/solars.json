@@ -1,0 +1,133 @@
+[
+  {
+    "id": "clever_solar_panel",
+    "type": "vehicle_part",
+    "name": { "str": "'Умная' солнечная панель" },
+	"item": "clever_solar_panel",
+  "location": "on_roof",
+    "symbol": "#",
+    "broken_symbol": "x",
+    "categories": [ "energy" ],
+    "color": "yellow",
+    "broken_color": "yellow",
+    "durability": 35,
+    "epower": 80,
+    "damage_modifier": 10,
+    "description": "Умная солнечная панель. Её конструкция оптимизированна под повышение получаемой энергии от солнца. Облачная погода замедляет зарядку",
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 2, 12 ] },
+      { "item": "steel_chunk", "count": [ 2, 12 ] },
+      { "item": "scrap", "count": [ 2, 12 ] },
+      { "item": "solar_cell", "count": [ 4, 12 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+        "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "10 m" },
+        "repair": {
+           "skills": [ [ "electronics", 9 ] ],
+        "time": "100 m",
+        "using": [ [ "vehicle_screw", 1 ], [ "solar_panel", 3 ], [ "soldering_standard", 20 ] ]
+      }
+    },
+    "flags": [ "SOLAR_PANEL" ]
+  },
+  {
+    "id": "clever_reinforced_solar_panel",
+    "type": "vehicle_part",
+    "name": { "str": "'Умная' укреплённая солнечная панель" },
+	"item": "clever_reinforced_solar_panel",
+  "location": "on_roof",
+    "symbol": "#",
+    "broken_symbol": "x",
+    "categories": [ "energy" ],
+    "color": "yellow",
+    "broken_color": "yellow",
+    "durability": 315,
+    "epower": 72,
+    "damage_modifier": 80,
+    "description": "Умная солнечная панель. Её конструкция оптимизированна под повышение получаемой энергии от солнца. Облачная погода замедляет зарядку. Укреплена бронированным стеклом, чтобы лучше противостоять повреждениям.",
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 2, 21 ] },
+      { "item": "steel_chunk", "count": [ 2, 21 ] },
+      { "item": "scrap", "count": [ 2, 21 ] },
+      { "item": "solar_cell", "count": [ 4, 12 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "10 m" },
+      "repair": {
+        "skills": [ [ "electronics", 9 ] ],
+        "time": "100 m",
+        "using": [ [ "vehicle_screw", 1 ], [ "solar_panel", 3 ], [ "soldering_standard", 25 ] ]
+      }
+    },
+    "flags": [ "SOLAR_PANEL" ],
+    "damage_reduction": { "all": 12 }
+  },
+    {
+    "id": "clever_solar_panel_v2",
+    "type": "vehicle_part",
+    "name": { "str": "'Умная' мощная солнечная панель" },
+	"item": "clever_solar_panel_v2",
+  "location": "on_roof",
+    "symbol": "#",
+    "broken_symbol": "x",
+    "categories": [ "energy" ],
+    "color": "yellow",
+    "broken_color": "yellow",
+    "durability": 35,
+    "epower": 180,
+    "damage_modifier": 10,
+    "description": "Высокопроизводительная умная солнечная панель. Её конструкция оптимизированна под повышение получаемой энергии от солнца. Облачная погода замедляет зарядку.",
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 2, 12 ] },
+      { "item": "steel_chunk", "count": [ 2, 12 ] },
+      { "item": "scrap", "count": [ 2, 12 ] },
+      { "item": "solar_cell", "count": [ 4, 18 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+        "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "10 m" },
+        "repair": {
+           "skills": [ [ "electronics", 9 ] ],
+        "time": "100 m",
+        "using": [ [ "vehicle_screw", 1 ], [ "solar_panel", 3 ], [ "soldering_standard", 20 ] ]
+      }
+    },
+    "flags": [ "SOLAR_PANEL" ]
+  },
+  {
+    "id": "clever_reinforced_solar_panel_v2",
+    "type": "vehicle_part",
+    "name": { "str": "'Умная' мощная укреплённая солнечная панель" },
+	"item": "clever_reinforced_solar_panel_v2",
+  "location": "on_roof",
+    "symbol": "#",
+    "broken_symbol": "x",
+    "categories": [ "energy" ],
+    "color": "yellow",
+    "broken_color": "yellow",
+    "durability": 315,
+    "epower": 162,
+    "damage_modifier": 80,
+    "description": "Высокопроизводительная умная солнечная панель. Её конструкция оптимизированна под повышение получаемой энергии от солнца. Облачная погода замедляет зарядку. Укреплена бронированным стеклом, чтобы лучше противостоять повреждениям.",
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 2, 21 ] },
+      { "item": "steel_chunk", "count": [ 2, 21 ] },
+      { "item": "scrap", "count": [ 2, 21 ] },
+      { "item": "solar_cell", "count": [ 4, 18 ] }
+    ],
+    "requirements": 
+    {
+      "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "10 m" },
+      "repair": {
+        "skills": [ [ "electronics", 9 ] ],
+        "time": "100 m",
+        "using": [ [ "vehicle_screw", 1 ], [ "solar_panel", 3 ], [ "soldering_standard", 25 ] ]
+      }
+    },
+    "flags": [ "SOLAR_PANEL" ],
+    "damage_reduction": { "all": 12 }
+  }
+]

@@ -1,0 +1,56 @@
+{
+    "type": "mod_tileset",
+    "compatibility": 
+	[
+	"Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics",
+      "MSXotto+"
+	  ],
+    "tiles-new": [
+	    {
+        "file": "p2bs_tile.png",
+        "tiles": 
+		[
+      
+          { 
+            "id": "vp_clever_solar_panel", 
+            "fg": 0, 
+            "rotates": false, 
+            "multitile": true, 
+            "additional_tiles": [ { "id": "broken", "fg": 1 } ] 
+          },           
+          { 
+            "id": "vp_clever_reinforced_solar_panel", 
+            "fg": 2, 
+            "rotates": false, 
+            "multitile": true, 
+            "additional_tiles": [ { "id": "broken", "fg": 3 } ] 
+          }, 	
+          { 
+            "id": "vp_clever_solar_panel_v2", 
+            "fg": 4, 
+            "rotates": false, 
+            "multitile": true, 
+            "additional_tiles": [ { "id": "broken", "fg": 5 } ] 
+          }, 	
+          { 
+            "id": "vp_clever_reinforced_solar_panel_v2", 
+            "fg": 6, 
+            "rotates": false, 
+            "multitile": true, 
+            "additional_tiles": [ { "id": "broken", "fg": 7 } ] 
+          }               
+        ],
+        "sprite_width": 32,
+        "sprite_height": 32
+		}
+    ]
+}

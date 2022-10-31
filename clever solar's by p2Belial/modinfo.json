@@ -1,0 +1,16 @@
+{
+    "type": "MOD_INFO",
+    "id": "p2Bs_cleversolars",
+    "name": "clever solars",
+    "authors": [
+        "p2Belial"
+    ],
+    "maintainers": [
+        "adds clever solars"
+    ],
+    "description": "Создание мода поддерживалось логикой и здравым смыслом",
+    "category": "vehicles",
+    "dependencies": [
+        "dda"
+    ]
+}
